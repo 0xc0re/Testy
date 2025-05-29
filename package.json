@@ -1,0 +1,29 @@
+{
+  "name": "vulnerability-test-repo",
+  "version": "1.0.0",
+  "description": "Test repository with known vulnerable dependencies",
+  "dependencies": {
+    "lodash": "4.17.4",
+    "moment": "2.19.1",
+    "debug": "2.6.8",
+    "hoek": "4.2.0",
+    "minimist": "0.0.8",
+    "tunnel-agent": "0.4.3",
+    "stringstream": "0.0.5",
+    "qs": "6.0.4",
+    "semver": "5.3.0",
+    "tar": "2.2.1",
+    "extend": "3.0.0",
+    "deep-extend": "0.4.1",
+    "handlebars": "4.0.11",
+    "marked": "0.3.6",
+    "node-fetch": "1.6.3"
+  },
+  "devDependencies": {
+    "eslint": "4.18.2",
+    "webpack": "3.8.1",
+    "babel-core": "6.26.0",
+    "gulp": "3.9.1",
+    "grunt": "1.0.1"
+  }
+} 
