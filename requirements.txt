@@ -1,0 +1,17 @@
+# Known vulnerable versions of common Python packages
+flask==0.12        # CVE-2018-1000656
+django==1.11       # CVE-2019-12308, CVE-2019-19844
+requests==2.19.1   # CVE-2018-18074
+urllib3==1.24.1    # CVE-2019-11324
+pyyaml==4.1        # CVE-2017-18342
+jinja2==2.10       # CVE-2019-10906
+sqlalchemy==1.2.17 # CVE-2019-7548
+celery==4.1.0      # CVE-2018-1000523
+tornado==4.5.3     # CVE-2019-20477
+pillow==6.2.1      # CVE-2020-10378
+cryptography==2.3 # CVE-2020-10932
+markdown==2.6.11   # CVE-2018-1002203
+
+# Optional: dev tools with known issues
+sphinx==1.6.5      # CVE-2022-40896
+twisted==19.2.0    # CVE-2020-10108
